@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .btn {
+    background: hsl(0, 0%, 95%);
+    border-radius: 9999px;
+    padding: 1em 1.75em;
+    max-width: 350px;
+    text-align: center;
+    display: inline-block;
+    align-self: end;
+  }
+
+  .btn:hover,
+  .btn:focus {
+    background: transparent;
+    color: hsl(0, 0%, 95%);
+    border: solid hsl(0, 0%, 95%) 2px;
+  }
+
+  .btn-orange {
+    color: hsl(31 77% 52% );
+  }
+
+  .btn-cyan {
+    color: hsl(184, 100%, 22%);
+  }
+
+  .btn-dark-cyan {
+    color: hsl(179, 100%, 13%);
+  }
+
+}
